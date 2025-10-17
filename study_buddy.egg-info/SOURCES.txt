@@ -1,0 +1,6 @@
+setup.py
+study_buddy.egg-info/PKG-INFO
+study_buddy.egg-info/SOURCES.txt
+study_buddy.egg-info/dependency_links.txt
+study_buddy.egg-info/requires.txt
+study_buddy.egg-info/top_level.txt
