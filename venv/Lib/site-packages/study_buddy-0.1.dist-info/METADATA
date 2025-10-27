@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: study-buddy
-Version: 0.1
-Requires-Dist: langchain
-Requires-Dist: langchain-groq
-Requires-Dist: pandas
-Requires-Dist: streamlit
-Requires-Dist: python-dotenv
-Dynamic: requires-dist
