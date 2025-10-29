@@ -34,3 +34,9 @@ Thumbs.db
 
 # Others
 *.sqlite3
+
+logs/
+venv
+.env
+LLMOPS_3.egg-info/
+results/
