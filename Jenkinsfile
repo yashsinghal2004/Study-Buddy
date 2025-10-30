@@ -1,10 +1,13 @@
 pipeline {
     agent any
+<<<<<<< HEAD
     environment {
         DOCKER_HUB_REPO = "yash9886/study-buddy"
         DOCKER_HUB_CREDENTIALS_ID = "dockerhub-token"
         IMAGE_TAG = "v${BUILD_NUMBER}"
     }
+=======
+>>>>>>> 16a7900e91e4872a36ff74c2f4941b7520866953
     stages {
         stage('Checkout Github') {
             steps {
@@ -12,6 +15,7 @@ pipeline {
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/yashsinghal2004/Study-Buddy']])
             }
         }        
+<<<<<<< HEAD
         stage('Build Docker Image') {
             steps {
                 script {
@@ -33,3 +37,7 @@ pipeline {
         
     }
 }
+=======
+    }
+}
+>>>>>>> 16a7900e91e4872a36ff74c2f4941b7520866953
