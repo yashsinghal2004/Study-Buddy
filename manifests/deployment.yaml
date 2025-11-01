@@ -16,7 +16,7 @@ spec:
       - name: study-buddy
         image: yash9886/study-buddy:v1
         ports:
-        - containerPort: 8501
+        - containerPort: 9090
         env:
         - name: GROQ_API_KEY
           valueFrom:
