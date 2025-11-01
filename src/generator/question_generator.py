@@ -1,9 +1,9 @@
 #most imp file
-from langchain.output_parsers import PydanticOutputParser #llm output converted to struc output
+from langchain_core.output_parsers import PydanticOutputParser #llm output converted to struc output
 from src.models.question_schemas import MCQQuestion, FillInTheBlankQuestion #datamodels for defining struc for both
 from src.prompts.templates import mcq_prompt_template, fill_blank_prompt_template
 from src.llm.groq_client import get_groq_client #calling the llm
-from src.config.settings import settings 
+from src.config.settings import settings
 from src.common.logger import get_logger
 from src.common.custom_exception import CustomException
 
