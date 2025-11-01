@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: study-buddy
-        image: yash9886/study-buddy:v64
+        image: yash9886/study-buddy:v65
         ports:
         - containerPort: 8501
         env:
