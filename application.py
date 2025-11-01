@@ -84,7 +84,7 @@ def main():
 
             for _, result in results_df.iterrows(): #iterating over each question
                 question_num=result['question_number']
-                if result["is_correct"]: #if ans correct showing message
+                if result['is_correct']: #if ans correct showing message
                     st.success(f"✅ Question {question_num} : {result['question']}")
                 else:
                     st.error(f"❌ Question {question_num} : {result['question']}")
