@@ -50,7 +50,7 @@ class QuizManager:
 
     def attempt_quiz(self):
         for i,q in enumerate(self.questions):#i=no of questions, q=question
-            st.markdown(f"**Question {i+1} : {q["question"]}**")
+            st.markdown(f"**Question {i+1} : {q['question']}**")
 
             if q['type']=='MCQ':
                 user_answer = st.radio( #delhi answer will be stored in the user answer
@@ -79,7 +79,7 @@ class QuizManager:
                 'question': q['question'],
                 'question_type':q['type'],
                 'user_answer':user_ans,
-                'correct_answer':q["correct_answer"],
+                'correct_answer':q['correct_answer'],
                 'is_correct':False
             }
 
