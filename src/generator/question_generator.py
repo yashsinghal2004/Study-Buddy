@@ -9,7 +9,7 @@ from src.common.custom_exception import CustomException
 
 
 class QuestionGenerator:
-    def __init__(self):#constructor
+    def __init__(self):
         self.llm=get_groq_client() #our llm will be put into use instantly
         self.logger=get_logger(self.__class__.__name__)
 

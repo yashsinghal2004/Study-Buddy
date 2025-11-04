@@ -39,7 +39,6 @@ pipeline {
                 }
             }
         }
-
         stage('Commit Updated YAML') {
             steps {
                 script {
