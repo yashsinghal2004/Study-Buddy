@@ -22,7 +22,7 @@ def main():
     if 'rerun_trigger' not in st.session_state: #whenever the new option or anything is selected the reload is done and handled by session state
         st.session_state.rerun_trigger=False  
 
-    st.title("Your Study Buddy AI")
+    st.title("Study Buddy")
 
     st.sidebar.header("Quiz Settings")
 
