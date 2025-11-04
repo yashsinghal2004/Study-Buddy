@@ -32,7 +32,7 @@ def main():
         index=0
     )
 
-    topic=st.sidebar.text_input("Enter Topic", placeholder="Java, Python, Typescript")
+    topic=st.sidebar.text_input("Enter Topic", placeholder="Java, Typescript, History")
 
     difficulty=st.sidebar.selectbox(
         "Difficulty Level",
